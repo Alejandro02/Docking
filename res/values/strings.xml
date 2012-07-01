@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Busqueda Evolutiva</string>
+	
+    <string name="intro">Modifica los parámetros y aprieta el botón para comenzar.</string>
+    <string name="botonInicial">Comenzar simulacion</string>
+	
+	<string name="poblacion">Tamaño de la poblacion</string>
+	<string name="mutacion">Mutacion</string>
+	<string name="individuosElite">Individuos de Elite</string>
+	<string name="atraccion">Coeficiente de atraccion hacia huecos</string>
+	<string name="eliminarGemelos">Eliminar gemelos</string>
+	<string name="umbralGemelos">Umbral de distancia para eliminar gemelos</string>
+	
+	<string name="poblacionInicial">40</string>
+	<string name="mutacionInicial">0.2</string>
+	<string name="individuosEliteInicial">6</string>
+	<string name="coeficienteAtraccionInicial">30</string>
+	<string name="umbralDistanciaGemelosInicial">30</string>
+	
+</resources>

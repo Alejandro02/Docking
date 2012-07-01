@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<TextView
+        android:id="@+id/poblacionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poblacion" />
+    <EditText
+        android:id="@+id/poblacion"
+        android:layout_width="50dp"
+        android:text="@string/poblacionInicial"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/mutacionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mutacion" />
+    <EditText
+        android:id="@+id/mutacion"
+        android:inputType="numberDecimal"
+        android:text="@string/mutacionInicial"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+	<TextView
+        android:id="@+id/individuosEliteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/individuosElite" />
+    <EditText
+        android:id="@+id/individuosElite"
+        android:inputType="numberSigned"
+        android:text="@string/individuosEliteInicial"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/coeficienteAtracctionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atraccion" />
+    <EditText
+        android:id="@+id/coeficienteAtraccion"
+        android:inputType="numberSigned"
+        android:text="@string/coeficienteAtraccionInicial"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+	<CheckBox
+        android:id="@+id/eliminarGemelos"
+        android:text="@string/eliminarGemelos"
+        android:layout_width="fill_parent"
+        android:checked="true"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/umbralGemelosText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/umbralGemelos" />
+    <EditText
+        android:id="@+id/umbralGemelos"
+        android:inputType="numberSigned"
+        android:text="@string/umbralDistanciaGemelosInicial"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/botonEmpezar"
+        android:text="@string/botonInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+</LinearLayout>
